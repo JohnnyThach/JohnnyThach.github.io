@@ -1,0 +1,61 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-header{
+    background-color: rgba(0, 0, 0, .03);
+    background-image: url(../Images/purple.png);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.nav{
+    
+    width: 100%;
+    margin: 10px;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    color: darkblue;
+    text-decoration:none;
+    padding: 1em;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0, 0, 0, 6);
+    
+}
+
+.nav a:hover{
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+
+.Welcome-Logo{
+    text-align: center;
+    margin: 0;
+    color: navy;
+    font-size: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Welcome-Logo-Large{
+    font-size: 8em;
+}
+
