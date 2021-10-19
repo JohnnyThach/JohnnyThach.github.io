@@ -13,10 +13,9 @@ html, body{
 
 }
 
-.nav{
-    
+.nav{   
     width: 100%;
-    margin: 10px;
+    margin: 0px;
 }
 
 .nav ul{
@@ -32,6 +31,7 @@ html, body{
     color: darkblue;
     text-decoration:none;
     padding: 1em;
+    transition: all 1s ease;
 }
 
 .main-nav{
@@ -43,7 +43,7 @@ html, body{
 }
 
 .nav a:hover{
-    background-color:rgba(0, 0, 0, 0.5);
+    background-color:rgb(255, 255, 255);
 }
 
 
@@ -56,6 +56,71 @@ html, body{
 }
 
 .Welcome-Logo-Large{
-    font-size: 8em;
+    font-size: 7em;
+}
+
+.section-header{
+    font-size: 2,5em;
+    color: navy;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; 
+}
+
+
+.about-johnny-image{
+    float: inline-start;
+    height: 600px;
+    width: 600px;
+    border-radius: 
+    margin: 15px;
+    padding: 1em;
+}
+.about-johnny-image2{
+    float: inline-start;
+    height: 600px;
+    width: 300px;
+    border-radius: 40%;
+    margin: 15px;
+    padding: 1em;
+}
+
+.text-about{
+    text-align: start;
+}
+
+.section-content{
+    margin: 1em;
+}
+
+.section-header{
+    font-size: 2em;
+    color: navy;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.main-footer{
+    background-color: rgb(162, 90, 221);
+    padding: .25em 0;
+    text-align: left;
+}
+
+.projects1{
+    background-color: skyblue;
+    height: 400px;
+}
+
+.projects2{
+    background-color: whitesmoke;
+    height: 400px;
+    
+}
+
+.projects3{
+    background-color:skyblue;
+    height: 400px;
+    
 }
 
