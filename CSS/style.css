@@ -13,6 +13,14 @@ html, body{
 
 }
 
+.welcome{
+   
+    height: 90vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
 .nav{   
     width: 100%;
     margin: 0px;
@@ -51,7 +59,7 @@ html, body{
     border-bottom: 1px solid rgba(0, 0, 0, 6);
     position: fixed; top: 0; right: 0;
     background-image: url(../Images/purple.png);
-    padding: 3.5px;
+    padding: 2px;
     
 }
 
@@ -83,22 +91,26 @@ html, body{
 
 
 .about-johnny-image{
-    border-radius: 40&;
+    border-radius: 10%;
     float: inline-start;
     height: 600px;
     width: 600px;
     border-radius: 
     margin: 15px;
     padding: 1em;
+   
 }
 .about-johnny-image2{
+    border-radius: 10%;
     float: inline-start;
     height: 600px;
-    width: 300px;
-    border-radius: 50%;
+    width: 600px;
+    border-radius: 
     margin: 15px;
     padding: 1em;
+   
 }
+
 
 .text-about{
     text-align: start;
@@ -119,12 +131,16 @@ html, body{
 .main-footer{
     background-color: rgb(162, 90, 221);
     padding: .25em 0;
-    text-align: left;
+    text-align: center;
 }
 
 .projects1{
     background-color: skyblue;
-    height: 400px;
+    height: 600px;
+    
+}
+.Projects1-images{
+    text-align: left;
 }
 
 .projects2{
@@ -140,5 +156,7 @@ html, body{
 }
 
 
-
-/* footer */
+.Main-projects{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1em;
+}
