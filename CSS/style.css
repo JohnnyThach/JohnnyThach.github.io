@@ -1,8 +1,11 @@
+
+/* Det er for å lage en slags border rundt selve html siden */
 html, body{
     margin: 0;
     padding: 0;
 }
 
+/* Dette er koden som bestemmer fargen og selve backgrunnen i headeren */
 .main-header{
     background-color: rgba(0, 0, 0, .03);
     background-image: url(../Images/purple.png);
@@ -12,7 +15,7 @@ html, body{
     padding-top: 10px;
 
 }
-
+/* Dette er koden som er for selve "Velkommen" i start siden, her blir det kontrollert høyde og hvor skrift skal ligge */
 .welcome{
    
     height: 90vh;
@@ -21,20 +24,27 @@ html, body{
     justify-content: center;
 }
 
+/* Koden for at transitions skal gå gjennom siden, i steedet for at den bare teleporterer */
+.html{
+    scroll-behavior: smooth;
+}
+
+
+/* Dette kontrollerer bredden på Nav baren */
 .nav{   
     width: 100%;
     margin: 0px;
     
 }
-
+/* Dette kontrollerer marginen til nav baren */
 .nav ul{
     margin: 0;
 }
-
+/* Dette kontrollerer at nav baren skal ligge i rett linje etter hverandre */
 .nav li{
     display: inline;
 }
-
+/* Dette kontrollerer fargen til navbaren, paddingen og transistion. tranistion er da den hvite fargen som kommer inn når man hover over */
 .nav a{
     
     color: darkblue;
@@ -42,7 +52,7 @@ html, body{
     padding: 1em;
     transition: all 1s ease;
 }
-
+/* Dette er da nav baren nede ved footeren, kontrollerer da at de skal ligge i rett linje etter hverandre, farge og tranition */
 .footer-nav a{
     display: inline-block;
     color: darkblue;
@@ -51,7 +61,7 @@ html, body{
     transition: all 1s ease;
 }
 
-
+/* Dette er main nav kontrollen, der teksten ligger i midten, skriv størrelse, fixed position der nav baren vil alltid være tilgjengelig */
 .main-nav{
     text-align: center;
     font-size: 1.3em;
@@ -62,13 +72,13 @@ html, body{
     padding: 2px;
     
 }
-
+/* Hvis man hoverer musen sin over navbaren vil den lyse hvit, så paddingen som forhindrer fra å gå gjennom andre ting */
 .nav a:hover{
     background-color:rgb(255, 255, 255);
     padding: 3.5px;
 }
 
-
+/* logoen/welcome som først i nettsiden, her justerer man hvor den skal ligge, skriv type, farge */
 .Welcome-Logo{
     text-align: center;
     margin: 0;
@@ -76,11 +86,11 @@ html, body{
     font-size: bold;
     font-family: 'Times New Roman', Times, serif;
 }
-
+/* størrelse på logoen */
 .Welcome-Logo-Large{
     font-size: 7em;
 }
-
+/* Styrer "about myself" skriv osv */
 .section-header{
     font-size: 2,5em;
     color: navy;
@@ -89,7 +99,7 @@ html, body{
     text-align: center; 
 }
 
-
+/* Bildet av Johnny, størrelse, høyde, border radius margin og padding */
 .about-johnny-image{
     border-radius: 10%;
     float: inline-start;
@@ -111,34 +121,29 @@ html, body{
    
 }
 
-
+/* teksten om Johnny, styrer om hvor den skal starte */
 .text-about{
-    text-align: start;
+    text-align: left;
 }
-
+/* marginen rundt første teksten i about myself */
 .section-content{
     margin: 1em;
 }
 
-.section-header{
-    font-size: 2em;
-    color: navy;
-    font-weight: bold;
-    font-family:'Times New Roman', Times, serif;
-    text-align: center;
-}
 
+/* bakgrunnsfargen, paddingen og hvor skriften skal ligge i footeren */
 .main-footer{
     background-color: rgb(162, 90, 221);
     padding: .25em 0;
     text-align: center;
 }
-
+/* farger og høyden til Projects */
 .projects1{
     background-color: skyblue;
     height: 600px;
     
 }
+/* bilde til projects1 */
 .Projects1-images{
     text-align: left;
 }
@@ -155,8 +160,32 @@ html, body{
     
 }
 
+.projects4{
+    background-color:skyblue;
+    height: 400px;  
+    
+}
 
+/* alt av skrift til Projects */
 .Main-projects{
     font-family:'Times New Roman', Times, serif;
     font-size: 1em;
+}
+
+
+
+.h2-projects{
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* for skrift i LED projects */
+.LED{
+    position: fixed; top: 0; right: 0;
+}
+/* Bildet i Projects skal emitte lys */
+.Projects-Img img:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 50px white;
+   
 }
