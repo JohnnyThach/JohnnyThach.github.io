@@ -5,6 +5,12 @@ html, body{
     padding: 0;
 }
 
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
 /* Dette er koden som bestemmer fargen og selve backgrunnen i headeren */
 .main-header{
     background-color: rgba(0, 0, 0, .03);
@@ -47,7 +53,7 @@ html, body{
 /* Dette kontrollerer fargen til navbaren, paddingen og transistion. tranistion er da den hvite fargen som kommer inn når man hover over */
 .nav a{
     
-    color: darkblue;
+    color: rgb(108, 108, 143);
     text-decoration:none;
     padding: 1em;
     transition: all 1s ease;
@@ -189,3 +195,19 @@ html, body{
     box-shadow: 0 0 50px white;
    
 }
+
+@media (max-width: 1104px){
+    .welcome .max-width{
+        margin-left: 0px;
+    }
+
+    .main-header{
+        margin-left: 0px;
+    }
+
+
+}
+
+
+
+
