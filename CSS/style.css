@@ -3,6 +3,7 @@
 html, body{
     margin: 0;
     padding: 0;
+    background-color: bl
 }
 
 .max-width{
@@ -13,7 +14,7 @@ html, body{
 
 /* Dette er koden som bestemmer fargen og selve backgrunnen i headeren */
 .main-header{
-    background-color: rgba(0, 0, 0, .03);
+    
     background-image: url(../Images/purple.png);
     background-blend-mode: multiply;
     background-size: cover;
@@ -53,15 +54,15 @@ html, body{
 /* Dette kontrollerer fargen til navbaren, paddingen og transistion. tranistion er da den hvite fargen som kommer inn når man hover over */
 .nav a{
     
-    color: rgb(108, 108, 143);
+    
     text-decoration:none;
-    padding: 1em;
+    padding: 1em; 
     transition: all 1s ease;
 }
 /* Dette er da nav baren nede ved footeren, kontrollerer da at de skal ligge i rett linje etter hverandre, farge og tranition */
 .footer-nav a{
     display: inline-block;
-    color: darkblue;
+    
     text-decoration:none;
     padding: 1em;
     transition: all 1s ease;
@@ -105,31 +106,12 @@ html, body{
     text-align: center; 
 }
 
-/* Bildet av Johnny, størrelse, høyde, border radius margin og padding */
-.about-johnny-image{
-    border-radius: 10%;
-    float: inline-start;
-    height: 600px;
-    width: 600px;
-    border-radius: 
-    margin: 15px;
-    padding: 1em;
-   
-}
-.about-johnny-image2{
-    border-radius: 10%;
-    float: inline-start;
-    height: 600px;
-    width: 600px;
-    border-radius: 
-    margin: 15px;
-    padding: 1em;
-   
-}
 
 /* teksten om Johnny, styrer om hvor den skal starte */
 .text-about{
     text-align: left;
+    background-image: url(../Images/Yellow.jpg);
+
 }
 /* marginen rundt første teksten i about myself */
 .section-content{
@@ -139,35 +121,44 @@ html, body{
 
 /* bakgrunnsfargen, paddingen og hvor skriften skal ligge i footeren */
 .main-footer{
-    background-color: rgb(162, 90, 221);
+    background-image: url(../Images/pastel.jpg);
     padding: .25em 0;
     text-align: center;
 }
 /* farger og høyden til Projects */
 .projects1{
-    background-color: skyblue;
+    background-image: url(../Images/Yellow.jpg);
     height: 600px;
+    margin: 10px;
     
 }
-/* bilde til projects1 */
-.Projects1-images{
-    text-align: left;
+
+
+.NewProjects {
+    background-image: url(../Images/Yellow.jpg);
+    height:520px;
+    
+}
+
+.Microcontroller {
+    background-image: url(../Images/Yellow.jpg);
+    height: 750px;
 }
 
 .projects2{
-    background-color: whitesmoke;
+    background-image: url(../Images/Yellow.jpg);
     height: 400px;
     
 }
 
 .projects3{
-    background-color:skyblue;
+    background-image: url(../Images/Yellow.jpg);
     height: 400px;
     
 }
 
 .projects4{
-    background-color:skyblue;
+    background-image: url(../Images/Yellow.jpg);
     height: 400px;  
     
 }
@@ -195,19 +186,3 @@ html, body{
     box-shadow: 0 0 50px white;
    
 }
-
-@media (max-width: 1104px){
-    .welcome .max-width{
-        margin-left: 0px;
-    }
-
-    .main-header{
-        margin-left: 0px;
-    }
-
-
-}
-
-
-
-
